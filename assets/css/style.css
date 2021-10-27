@@ -1,0 +1,67 @@
+/* input:optional {
+    background-color: rgb(204, 204, 204);
+}
+
+[type=email]:invalid {
+    background-color: red;
+}
+
+[type=email]:valid {
+    background-color: green;
+}
+
+textarea {
+    color: greenyellow;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    transition: .3s;
+}
+
+button:hover {
+    color: white;
+    background-color: grey;
+} */
+
+
+/* #text {
+    color: red;
+} */
+
+
+/* .text {
+    color: greenyellow;
+} */
+
+
+/* p {
+    color: blue;
+} */
+
+
+/* Hex format: 0-9, a-f, # */
+
+
+/* 
+p {
+    color: rgba(255, 0, 0, 0);
+    background-color: rgba(red, green, blue, alpha);
+} */
+
+.image {
+    width: 100%;
+    height: 800px;
+    /* background-color: cadetblue; */
+    /* background-image: url(https://picjumbo.com/wp-content/uploads/alone-with-his-thoughts-1080x720.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    border: 1px dashed black;
+    /* background-size: contain; */
+    /* background-attachment: fixed; */
+    /* background-origin: padding-box; */
+    /* background-clip: content-box; */
+    /* padding: 100px; */
+    background: cadetblue url(https://picjumbo.com/wp-content/uploads/alone-with-his-thoughts-1080x720.jpg) no-repeat center/contain content-box;
+}
